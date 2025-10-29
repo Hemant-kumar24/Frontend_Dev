@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+}
+body
+{
+   
+}
+.container{
+    padding: 30px; 
+    width: 100%;
+    height:700px;
+    background-color :#C2EFD4;
+    color:#224F34;
+;
+}
+.logo{
+    
+    font-weight: 400;
+    font-size: 40px;
+    font-family: Elephant;
+    cursor: pointer;
+}
+.nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+a{
+    text-decoration:none;
+    color:#224F34;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 22px;
+
+}
+.btn-login{
+    background-color:#C2EFD4;
+    
+    
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 20px;
+    border: 1px solid #224F34;
+    padding: 10px 30px 10px 30px;
+    border-radius: 2px;
+    cursor: pointer;
+
+
+}
+.btn-login:hover{
+    background-color:#224F34;
+    color:white;
+    
+}
+.hero{
+    margin-top: 40px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;   
+}
+.hero-heading{
+    font-size: 86px;
+    font-weight:700;
+    font-family: Rufina;
+     
+
+}
+.hero-text{
+    font-size: 24px;
+    line-height: 2.5rem;
+    font-weight: 500px;
+    font-family: poppins;
+   
+
+}
+.btn-explore{
+    background-color:#224F34;
+    color:white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 2px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+.btn-explore:hover{
+    padding: 15px 35px 15px 35px;
+    box-shadow: 5px 5px 5px #55c582;
+}
+
+.hero-image{
+    height:auto;
+    object-fit:contain;
+    border-radius: 80px 20px 80px 40px;
+    background-color: #55c582;    
+}
+
+.sells{
+    padding: 50px;
+    text-align: center;
+    margin: 20px;
+    
+
+}
+.heading{
+    color: #224F34;
+    font-size: 64px;
+    
+    font-family: Roboto slab;
+}
+.s-heading{
+    color: #224F34;
+    font-size: 22px;
+    line-height: 50px;
+    font-family:poppins;
+    margin-bottom: 50px;
+}
+.image-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    gap: 40px;
+    overflow: hidden;
+}
+
+.image img{
+    background-color:rgba(193, 217, 193, 0.863);
+    border-radius: 10px;
+    height:400px;
+    width:350px;
+    object-fit: cover;
+    object-position: top center;
+    cursor:pointer;
+    border-radius: 10px;
+}
+.product-name{
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 800px;
+    margin-top: 25px;
+    line-height: 30px;
+}
+.btn-all{
+    background-color: none;
+    color: #224F34;
+    font-size: 24px;
+    margin: 40px;
+    padding: 10px 30px 10px 30px;
+    border: 2px solid #224F34;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-all:hover{
+    padding: 15px 35px 15px 35px;
+    background-color: #C2EFD4;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    margin: 50px 0px 50px;
+}
+a:hover{
+    color: #224F34;
+    border-bottom: 4px solid #224F34;
+}
+.product-image img {
+     border-radius: 10px;
+    height:350px;
+    width:300px;
+    object-fit:cover;
+    object-position: top center;
+    cursor:pointer;
+    border-radius: 10px;
+    background-color: rgb(203, 208, 203);
+}
+.expensive{
+    background-color: #C2EFD4;
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    gap: 40px;
+    overflow: hidden;
+
+}
+.expensive img{
+    object-fit: cover;
+}
+
+
+
+.p-deatil{
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 600px;
+    margin-top: 15px;
+    line-height: 30px;
+
+}
+.feedback{
+    margin-top: 50px;
+
+    
+}
+.feed{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+}
+.box{
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px rgba(134, 131, 131, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    width: 350px;
+    height: 250px;
+
+}
+.box:hover{
+    background-color:#C2EFD4;
+    color: #224F34;
+    box-shadow: 10px 10px 10px 10px #C2EFD4;
+}
+
+
+.footer {
+  background:#224F34;
+  height: 300px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  
+}
+
+.left {
+}
+
+.icons img {
+  margin-right: 5px;
+}
+
+.middle {
+  display: flex;
+  gap: 50px;
+}
+
+.right input {
+  padding: 5px;
+}
+
+.right button {
+  padding: 6px;
+  background:#224F34;
+  border: none;
+}
+
+.bottom {
+  background:#224F34;
+  color: white;
+  text-align: right;
+  padding: 10px;
+  
+}
