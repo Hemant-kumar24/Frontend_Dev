@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Banking Interest Calculator</title>
+  </head>
+  <body>
+    <script>
+      let accountType = "fixed";
+      let amount = 150000;
+      let years = 3;
+      let rate = accountType === "savings" ? 4 : 6.5;
+      if (amount > 100000) rate += 1;
+      let total = amount * Math.pow(1 + rate / 100, years);
+      console.log("Account Type:", accountType);
+      console.log("Rate:", rate + "%");
+      console.log(
+        "Final Balance after " + years + " years: ₹" + total.toFixed(2)
+      );
+    </script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Restaurant Billing</title>
+  </head>
+  <body>
+    <script>
+      let base = 2200;
+      let diningIn = true;
+      let gst = base * 0.05;
+      let serviceTax = diningIn ? base * 0.1 : 0;
+      let subtotal = base + gst + serviceTax;
+      let tip = subtotal > 2000 ? subtotal * 0.08 : 0;
+      let final = subtotal + tip;
+      console.log("Base amount: ₹" + base);
+      console.log("GST: ₹" + gst.toFixed(2));
+      console.log("Service tax: ₹" + serviceTax.toFixed(2));
+      console.log("Tip: ₹" + tip.toFixed(2));
+      console.log("Final total: ₹" + final.toFixed(2));
+    </script>
+  </body>
+</html>

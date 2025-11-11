@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Library Fine</title>
+  </head>
+  <body>
+    <script>
+      let delays = [3, 8, 12, 5];
+      let totalFine = 0;
+      for (let i = 0; i < delays.length; i++) {
+        let d = delays[i];
+        if (d >= 1 && d <= 5) totalFine += d * 10;
+        else if (d >= 6 && d <= 10) totalFine += d * 20;
+        else totalFine += d * 50;
+      }
+      if (delays.length > 3) totalFine += 200;
+      console.log("Delayed books:", delays.length);
+      console.log("Delay days:", delays);
+      console.log("Total Fine: ₹" + totalFine);
+    </script>
+  </body>
+</html>
